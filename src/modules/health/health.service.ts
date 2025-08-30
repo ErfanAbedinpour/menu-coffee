@@ -29,7 +29,7 @@ export class HealthService {
       return {
         status: 'ok',
         message: 'Everything is working fine!',
-        version: '1.0.0',
+        version: '1.0.1',
         timestamp: new Date().toISOString(),
         productCount,
         uptime,
